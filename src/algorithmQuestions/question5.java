@@ -14,6 +14,11 @@ public class question5 {
         vize = scan.nextInt();
         System.out.println("Final Notunuzu giriniz: ");
         fnl = scan.nextInt();
+        float ort = ortalama(vize,fnl);
+        System.out.println(ort);
+        if (ort >= 50){
+            System.out.println("Ogrenci gecti");
+        }else System.out.println("Ogrenci kaldi");
 
 
     }
