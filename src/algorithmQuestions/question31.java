@@ -1,8 +1,7 @@
 package algorithmQuestions;
 
-
-import com.google.common.base.Splitter;
-import org.apache.commons.lang3.StringUtils;
+//import com.google.common.base.Splitter;
+//import org.apache.commons.lang3.StringUtils;
 
 import java.util.List;
 import java.util.StringTokenizer;
@@ -37,12 +36,12 @@ public class question31 {
             String s2 = strings.nextToken();
             System.out.println(s2);
         }
-       String[] splitArray =  StringUtils.split(s,"-");
-        printString(splitArray,"String Utils Split");
-        Iterable<String> results = Splitter.on("-").split(s);
-        for (String string : results){
-            System.out.println(string+"Guava Jar");
-        }
+//       String[] splitArray =  StringUtils.split(s,"-");
+  //      printString(splitArray,"String Utils Split");
+    //    Iterable<String> results = Splitter.on("-").split(s);
+      //  for (String string : results){
+        //    System.out.println(string+"Guava Jar");
+        //}
     }
     public static void printString(String[] str, String approach){
         System.out.println("Splitting string by using "+ approach);
