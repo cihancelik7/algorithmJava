@@ -21,5 +21,6 @@ public class Soru_11 {
         kar = toplamSatis * 0.08;
         System.out.println(kar);
 
+
     }
 }
