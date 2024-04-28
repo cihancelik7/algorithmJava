@@ -14,8 +14,8 @@ public class Soru_7 {
 
         System.out.print("Kisi sayisini giriniz:");
         kisi = scan.nextInt();
-        for (int i =1; i<kisi; i++){
-            System.out.print("Notu giriniz:");
+        for (int i =1; i<=kisi; i++){
+            System.out.print(i+". notu giriniz:");
             not = scan.nextInt();
             kare = not*not;
             kup = kare * not;
